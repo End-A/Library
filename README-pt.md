@@ -5,7 +5,7 @@
 Library 📚
 Este é um sistema de gerenciamento de biblioteca (CRUD) desenvolvido em Java com persistência em banco de dados PostgreSQL. O projeto foi construído com foco em uma arquitetura limpa, utilizando o padrão de camadas para garantir a separação de responsabilidades.
 
-🛠️ Arquitetura e Organização
+## 🛠️ Arquitetura e Organização
 O projeto está dividido em três níveis principais:
 
 UI (User Interface): Camada de interação com o usuário.
@@ -16,14 +16,14 @@ Persistência (Persistence): Camada responsável pela comunicação direta com o
 
 Padrão de Projeto: O sistema utiliza o padrão de Interfaces e Implementações (.impl). As interfaces definem os contratos de serviço e persistência, enquanto a lógica real fica encapsulada nos pacotes de implementação, o que facilita a manutenção e evolução do código.
 
-📋 Pré-requisitos
+## 📋 Pré-requisitos
 Java JDK 23 instalado.
 
 PostgreSQL (versão 42.7.1 ou similar).
 
 Uma IDE Java de sua preferência (IntelliJ, Eclipse ou VS Code).
 
-🚀 Como Começar
+## 🚀 Como Começar
 1. Clonar o Repositório
 Para baixar o projeto, execute o comando abaixo no seu terminal:
 
@@ -44,7 +44,7 @@ Certifique-se de que o driver JDBC do PostgreSQL está configurado no projeto.
 
 Localize a classe principal (que contém o método main) e execute-a através da sua IDE.
 
-✅ Funcionalidades Atuais
+## ✅ Funcionalidades Atuais
 O sistema permite o gerenciamento completo do ciclo de vida dos livros e usuários:
 
 Cadastro: Adicionar novos livros ao acervo.
