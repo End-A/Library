@@ -38,6 +38,19 @@ To run this project locally, you will need:
 * **PostgreSQL:** A running instance of PostgreSQL server.
 * **IDE:** Any Java IDE (IntelliJ IDEA, Eclipse, VS Code, etc.).
 
+### 🚀 Getting Started
+1. Clone the repository:
+    ```bash
+   git clone [https://github.com/End-A/Library.git](https://github.com/End-A/Library.git)
+
+2. Open the project in your preferred IDE.
+
+3. Import the PostgreSQL JDBC Driver dependency.
+
+4. Configure the database settings as described above.
+
+5. Locate the main class (containing the public static void main method) and run it.
+
 ## ⚙️ Database Configuration (Action Required)
 
 Before running the application, you must configure your database credentials.
@@ -51,5 +64,8 @@ Before running the application, you must configure your database credentials.
 String url = "jdbc:postgresql://localhost:5432/TrabalhoPOO";
 Connection con = DriverManager.getConnection(url, "postgres", "12345");
 
+
+
 ---
 Developed by [End-A](https://github.com/End-A)
+
