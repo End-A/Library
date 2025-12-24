@@ -1,4 +1,6 @@
 # Library
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 # 📚 Library Management System (Java CRUD)
 
 This is a robust Library Management System developed in Java, designed to handle fundamental CRUD (Create, Read, Update, Delete) operations for a book collection.
@@ -48,3 +50,6 @@ Before running the application, you must configure your database credentials.
 // Locate these lines in BancoDeDados.java
 String url = "jdbc:postgresql://localhost:5432/TrabalhoPOO";
 Connection con = DriverManager.getConnection(url, "postgres", "12345");
+
+---
+Developed by [End-A](https://github.com/End-A)
