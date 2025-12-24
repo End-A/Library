@@ -26,8 +26,7 @@ Uma IDE Java de sua preferência (IntelliJ, Eclipse ou VS Code).
 ## 🚀 Como Começar
 1. Clonar o Repositório
 Para baixar o projeto, execute o comando abaixo no seu terminal:
-
-``Bash
+bash
 git clone [https://github.com/End-A/Library.git](https://github.com/End-A/Library.git)
 
 2. Configuração da Base de Dados
